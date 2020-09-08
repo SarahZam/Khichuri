@@ -29,7 +29,7 @@ h1{
     padding: 0;
 }
 
-#prothom {
+.chobi {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -53,4 +53,72 @@ h1{
 
 .About p{
     font-size: 20px;
+}
+
+.column1{
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.column2{
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.Ingredients {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: #7b241c;
+
+}
+
+.Ingredients h2{
+    font-size: 35px;
+}
+
+.Ingredients ul{
+    font-size: 20px;
+}
+
+.Instructions {
+    margin-top: 2%;
+    display: inline-block;
+    float: left;
+    color: #F5B041;
+    padding: 3% 3% 5% 5%;
+}
+
+.Instructions h2{
+
+    text-align: center;
+    font-size: 35px;
+}
+
+.Instructions ol{
+    font-size: 18px;
+}
+
+.note{
+    padding-top: 3%;
+    font-size: 25px;
+}
+
+.source{
+    margin-top: 2%;
+    display: inline-block;
+    float: left;
+    color: #7B241C;
+    font-size: 20px;
+    padding: 5% 5%;
+    padding-left: 45%;
+}
+
+.source a{
+    text-align: center !important;
+
 }

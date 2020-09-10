@@ -54,6 +54,8 @@ function stepsShowNext(stepsListLength, stepsList, stepsNextButton){
 	})
 }
 
+
+//shows the description when u hover over heading
 function showDescription(aboutHead, description) {
 	description.style.display="none";
 	aboutHead.addEventListener("mouseenter", function () {

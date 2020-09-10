@@ -6,9 +6,13 @@
     <title>Khichuri</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&display=swap');
     </style>
+
+
+
 </head>
 
 <body>
@@ -21,8 +25,8 @@
     </div>
 
     <div class="About container">
-        <h2>About This Dish</h2>
-        <p>
+        <h2 id="aboutHead">About This Dish</h2>
+        <p id="description">
             Khichuri in a South Asian comfort dish made with lentils, rice, and spices. Bengali Khichuri is cooked with seasonal vegetables and is usually consumed in winter or on rainy days.
             It's also fed to patients since the ingredients make it a very healthy meal. Sometimes, mothers make this dish for their kids whenever they have a bad day which leads to
             aforementioned kids making a website centered around this dish in their csc courses because they haven't been home for months thanks to the curse of 2020 and they just want their mom to make them some khichuri.
@@ -37,7 +41,8 @@
 
             <div class="column2">
                 <h2>Ingredients</h2>
-                <ul>
+                <button id="ingredientNext">Show ingredients one by one</button>
+                <ul id="ingredientsList">
                     <li>200 g moong dal</li>
                     <li>200 g gobindobhog rice</li>
                     <li>200 g potatoes (5 cm chunks)</li>
@@ -61,7 +66,8 @@
 
     <div class="Instructions container">
         <h2>Instructions</h2>
-        <ol>
+        <button id="stepNext">Show ingredients one by one</button>
+        <ol id="stepList">
             <li>Rinse gobindobhog rice thoroughly, spread it it over a colander or net, and leave it to air-dry completely.</li>
             <li>Cut potatoes in 5-cm chunks, cauliflower into 5-cm florets, and tomatoes into quarters. Shell and blanch the peas.</li>
             <li>Set a kadai on medium heat and add the moong dal to it. Dry-roast the dal for about 6 minutes or till it turns pinkish-brown giving off a nutty aroma. Stir continuously throughout to get an even roast.</li>
@@ -91,7 +97,7 @@
         <a href="https://www.bongeats.com/recipe/khichuri">Source</a>
     </div>
 
-
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>

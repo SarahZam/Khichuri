@@ -10,33 +10,32 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&display=swap');
     </style>
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
+
     <div class="container">
         <h1>Bengali Khichuri Recipe</h1>
     </div>
 
     <div>
-        <img class="chobi" src="khichriJumbo.jpg"/>
+        <img class="chobi" src="khichriJumbo.jpg" />
     </div>
 
     <div class="About container">
         <h2 id="aboutHead">About This Dish</h2>
         <p id="description">
-            Khichuri in a South Asian comfort dish made with lentils, rice, and spices. Bengali Khichuri is cooked with seasonal vegetables and is usually consumed in winter or on rainy days.
-            It's also fed to patients since the ingredients make it a very healthy meal. Sometimes, mothers make this dish for their kids whenever they have a bad day which leads to
-            aforementioned kids making a website centered around this dish in their csc courses because they haven't been home for months thanks to the curse of 2020 and they just want their mom to make them some khichuri.
+            Khichuri in a South Asian comfort dish made with lentils, rice, and spices. Bengali Khichuri is cooked with seasonal vegetables and is usually consumed in winter or on rainy days. It's also fed to patients since the ingredients make it a very healthy
+            meal. Sometimes, mothers make this dish for their kids whenever they have a bad day which leads to aforementioned kids making a website centered around this dish in their csc courses because they haven't been home for months thanks to the
+            curse of 2020 and they just want their mom to make them some khichuri.
         </p>
     </div>
 
     <div class="Ingredients">
         <div class="row">
             <div class="column1">
-                <img src="khichri2.jpg"/>
+                <img src="khichri2.jpg" />
             </div>
 
             <div class="column2">
@@ -58,6 +57,12 @@
                     <li>40 g ginger paste</li>
                     <li>4 pcs bay leaves</li>
                 </ul>
+
+                <form method="POST" action="">
+                    <label for="newIngredient">Add an Ingredient: </label>
+                    <input type="text" id="newIngredient">
+                    <input type="submit" value="Add Ingreditent" id="addIngButton">
+                </form>
             </div>
 
         </div>
@@ -78,7 +83,8 @@
             <li>In a small bowl, mix the ginger paste, turmeric powder, and cumin powder with 50 g water. Keep it ready. Also set water to boil on the stove or in an electric kettle.</li>
             <li>Now, add 15 g mustard oil to the pan, set on medium heat. Once the oil is hot, temper it with dried red chillies, bay leaves, cardamom, cinnamon, cloves, and cumin seeds.</li>
             <li>Add the grated coconut. Fry for about 3 minutes until the coconut turns golden.</li>
-            <li>Add the ginger-turmeric-cumin paste to the pan. Fry the spices on medium heat till the their raw smell is gone and oil starts oozing from the mixture. This should take about 8 minutes. If you find during this time that the mixture has run dry, add about 50 g more water and continue frying.</li>
+            <li>Add the ginger-turmeric-cumin paste to the pan. Fry the spices on medium heat till the their raw smell is gone and oil starts oozing from the mixture. This should take about 8 minutes. If you find during this time that the mixture has run
+                dry, add about 50 g more water and continue frying.</li>
             <li>Next, add the fried gobindobhog rice, roasted moong dal, and 2 slit green chillies. Stir them into the spices and cook for about 2 minutes.</li>
             <li>Add 1.8 litres of hot water along with the salt. Cover the pan and allow its contents to boil for about 5 minutes. The heat should be set at low from this point onwards.</li>
             <li>Once the water is bubbling, add the fried potatoes and cauliflower. Cover and cook for about 15 minutes. Dal tends to settle at the bottom and stick to the pan, so don’t forget to stir occasionally, scraping the bottom thoroughly.</li>
@@ -98,6 +104,7 @@
     </div>
 
     <script src="scripts/scripts.js"></script>
+
 </body>
 
 </html>
